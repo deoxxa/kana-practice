@@ -1,0 +1,30 @@
+{
+  "name": "kana-practice",
+  "description": "Practice learning hiragana with a simple match up game",
+  "version": "0.0.1",
+  "author": {
+    "name": "Conrad Pankoff",
+    "email": "deoxxa@fknsrs.biz",
+    "url": "http://www.fknsrs.biz/"
+  },
+  "url": "https://github.com/deoxxa/kana-practice",
+  "license": "BSD",
+  "repository": { "type":"git", "url":"git://github.com/deoxxa/kana-practice" },
+  "keywords": [
+    "hiragana",
+    "practice",
+    "educational",
+    "website",
+    "game",
+    "ender"
+  ],
+  "dependencies": {
+    "bean": "0.4.x",
+    "bonzo": "0.8.x",
+    "domready": "0.2.x",
+    "ender-js": "0.3.x",
+    "morpheus": "0.6.x",
+    "qwery": "3.2.x",
+    "underscore": "1.2.x"
+  }
+}
