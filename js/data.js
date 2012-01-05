@@ -4,14 +4,13 @@ DATA = {
 };
 
 DATA.types = {
-  r: "Romaji",
-  h: "Hiragana",
-  k: "Katakana",
+  romaji: "Romaji",
+  hiragana: "Hiragana",
 };
 
-DATA.items.r = {};
+DATA.items.romaji = {};
 
-DATA.items.h = {
+DATA.items.hiragana = {
   a: "あ",
   i: "い",
   u: "う",
