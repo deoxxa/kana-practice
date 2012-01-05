@@ -30,7 +30,9 @@ function Game(memory_set, num) {
           self.last_clicked = panel;
           $(panel).css({"border-color": "#AAAA88", "background-color": "#FFFFAA"});
         } else {
-          if (panel.item.id == self.last_clicked.item.id) {
+          if (panel == self.last_clicked) {
+            return;
+          } else if (panel.item.id == self.last_clicked.item.id) {
             panel.item.hits++;
             self.todo--;
 
