@@ -1,4 +1,4 @@
-var memory_set = new MemorySet(["r","h"], _.keys(DATA.items.h), DATA);
+var memory_set = new MemorySet(["romaji","hiragana"], _.keys(DATA.items.hiragana), DATA);
 
 var current_game = null,
     current_score = 0;
@@ -39,7 +39,6 @@ function new_game() {
 }
 
 function view_stats() {
-  console.log(memory_set);
 }
 
 $.domReady(function() {
